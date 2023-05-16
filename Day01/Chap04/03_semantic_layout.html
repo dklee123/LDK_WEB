@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Layout</title>
+
+    <style>
+        *{margin: 0;padding: 0;box-sizing: border-box;}
+
+        header {
+            background-color: black;
+            height: 80px;
+        }
+
+        nav{}
+        nav a{
+            text-decoration: none;
+            color: white;
+            float: left;
+            display: block;
+            width: 100px;
+            height: 100%;
+            padding: 10px 20px;
+            line-height: 60px;
+            text-align: center;
+        }
+
+        nav a:hover{
+            background-color: cornflowerblue;
+        }
+
+        section {
+            margin: 0 auto;
+            width: 1024px;
+            background-color: cornflowerblue;
+            border: 1px solid lightgray;
+            padding: 10px;
+            min-height: 200px;
+        }
+
+        footer {
+            background-color: lightgray;
+            min-height: 80px;
+        }
+
+        footer .copy {
+            float: left;
+            line-height: 80px;
+            padding: 0 20;
+        }
+
+        footer .family {
+            float: right;
+            line-height: 80px;
+            min-width: 120px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="http://www.naver.com">네이버</a>
+            <a href="http://www.kakao.com">카카오</a>
+            <a href="http://www.youtube.com">유튜브</a>
+            <a href="http://www.youtube.com">PUBG</a>
+        </nav>
+    </header>
+    <section>
+        <h1>My Page</h1>
+        <p>My Page에 오신걸 환영합니다~!</p>
+    </section>
+
+    <section>
+        <h1>2번째 섹션</h1>
+        <p>2번째 영역 입니다~!</p>
+        <article>
+            쓸쓸함과 시와 별 쉬이 계집애들의 때 까닭입니다. 
+            남은 이름과, 까닭이요, 하나에 위에 계십니다. 
+            추억과 아직 이 무덤 하나 남은 이름과, 봅니다. 
+            아이들의 애기 무엇인지 쉬이 별 밤을 봅니다.
+            다 나는 프랑시스 거외다. 
+            때 슬퍼하는 가을로 마디씩 프랑시스 새겨지는 노새, 이국 까닭입니다. 
+            겨울이 위에 마리아 하늘에는 시인의 벌레는 책상을 지나고 까닭입니다. 
+            아무 같이 노루, 나의 멀듯이, 봅니다. 
+            보고, 같이 겨울이 이런 다하지 멀리 언덕 거외다. 
+            별 책상을 이름자를 내일 너무나 내린 강아지, 멀듯이, 거외다. 
+            토끼, 경, 내린 멀리 하나에 까닭입니다.
+        </article>
+    </section>
+
+    <section>
+        <h1>3번째 섹션</h1>
+        <p>3번째 영역 입니다~!</p>
+    </section>
+
+    <footer>
+        <p class="copy">Copyright ⓒ ALOHA CLASS. ALL Right Reserved</p>
+        <p class="family">
+            <select name="family">
+                <option value="1">네이버</option>
+                <option value="2">카카오</option>
+                <option value="3">유튜브</option>
+                <option value="4">p</option>
+            </select>
+        </p>
+    </footer>
+</body>
+
+</html>
